@@ -5,12 +5,12 @@ namespace LeetCodeTests
 {
     public class RomanToIntTests
     {
-        RomanToIntClass romanToIntClass;        
+        RomanToIntProblem romanToIntClass;        
         [Fact]
         public void Returns3ForIII()
         {
             //Arrange
-            romanToIntClass = new RomanToIntClass();
+            romanToIntClass = new RomanToIntProblem();
             //Act
             int result = romanToIntClass.RomanToInt("III");
             //Assert
@@ -20,7 +20,7 @@ namespace LeetCodeTests
         public void Returns58ForLVIII()
         {
             //Arrange
-            romanToIntClass = new RomanToIntClass();
+            romanToIntClass = new RomanToIntProblem();
             //Act
             int result = romanToIntClass.RomanToInt("LVIII");
             //Assert
@@ -30,7 +30,7 @@ namespace LeetCodeTests
         public void Returns1994ForMCMXCIV()
         {
             //Arrange
-            romanToIntClass = new RomanToIntClass();
+            romanToIntClass = new RomanToIntProblem();
             //Act
             int result = romanToIntClass.RomanToInt("MCMXCIV");
             //Assert
@@ -40,7 +40,7 @@ namespace LeetCodeTests
         public void Returns9ForIX()
         {
             //Arrange
-            romanToIntClass = new RomanToIntClass();
+            romanToIntClass = new RomanToIntProblem();
             //Act
             int result = romanToIntClass.RomanToInt("IX");
             //Assert

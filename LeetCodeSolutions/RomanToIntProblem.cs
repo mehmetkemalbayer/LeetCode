@@ -2,7 +2,7 @@
 
 namespace LeetCodeSolutions
 {
-    public class RomanToIntClass
+    public class RomanToIntProblem
     {
         public int RomanToInt(string s)
         {
